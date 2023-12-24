@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="bbea7ed9-3108-45d6-90c0-0f2c3d13fa40" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inventory-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inventory-service/src/main/java/com/barack/inventoryservice/InventoryServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inventory-service/src/main/java/com/barack/inventoryservice/controller/InventoryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inventory-service/src/main/java/com/barack/inventoryservice/entity/Inventory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inventory-service/src/main/java/com/barack/inventoryservice/repository/InventoryRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inventory-service/src/main/java/com/barack/inventoryservice/service/InventoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inventory-service/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inventory-service/src/test/java/com/barack/inventoryservice/InventoryServiceApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-service/src/main/java/com/barack/springbootmicroservice/SpringbootMicroserviceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-service/src/main/java/com/barack/springbootmicroservice/controller/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-service/src/main/java/com/barack/springbootmicroservice/dto/ProductRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-service/src/main/java/com/barack/springbootmicroservice/dto/ProductResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-service/src/main/java/com/barack/springbootmicroservice/entity/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-service/src/main/java/com/barack/springbootmicroservice/repository/ProductRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-service/src/main/java/com/barack/springbootmicroservice/service/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-service/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-service/src/test/java/com/barack/springbootmicroservice/SpringbootMicroserviceApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-order/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-order/src/main/java/com/barack/serviceorder/ServiceOrderApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-order/src/main/java/com/barack/serviceorder/controller/OrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-order/src/main/java/com/barack/serviceorder/dto/OrderLineItemsDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-order/src/main/java/com/barack/serviceorder/dto/OrderRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-order/src/main/java/com/barack/serviceorder/entity/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-order/src/main/java/com/barack/serviceorder/entity/OrderLineItems.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-order/src/main/java/com/barack/serviceorder/repository/OrderRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-order/src/main/java/com/barack/serviceorder/service/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-order/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-order/src/test/java/com/barack/serviceorder/ServiceOrderApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inventory-service/src/main/java/com/barack/inventoryservice/repository/InventoryRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../inventory-service/src/main/java/com/barack/inventoryservice/repository/InventoryRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inventory-service/src/main/java/com/barack/inventoryservice/service/InventoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../inventory-service/src/main/java/com/barack/inventoryservice/service/InventoryService.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2ZyWo57Z6uMlsvj3i465Zl8S6sm" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "jdk.selected.JAVA_MODULE": "18",
+    "last_opened_file_path": "D:/Spring-Boot/Microservice/Microservice-New/inventory-service",
+    "onboarding.tips.debug.path": "D:/Spring-Boot/Microservice/Microservice-New/service-order/src/main/java/com/barack/Main.java"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Spring-Boot\Microservice\Microservice-New\inventory-service" />
+      <recent name="D:\Spring-Boot\Microservice\Microservice-New\product-service" />
+      <recent name="D:\Spring-Boot\Microservice\Microservice-New\service-order" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.ServiceOrderApplication">
+    <configuration name="InventoryServiceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.barack.inventoryservice.InventoryServiceApplication" />
+      <module name="inventory-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.barack.inventoryservice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServiceOrderApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.barack.serviceorder.ServiceOrderApplication" />
+      <module name="service-order" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.barack.serviceorder.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringbootMicroserviceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.barack.springbootmicroservice.SpringbootMicroserviceApplication" />
+      <module name="product-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.barack.springbootmicroservice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ServiceOrderApplication" />
+        <item itemvalue="Application.SpringbootMicroserviceApplication" />
+        <item itemvalue="Application.InventoryServiceApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bbea7ed9-3108-45d6-90c0-0f2c3d13fa40" name="Changes" comment="" />
+      <created>1703394972635</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1703394972635</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/service-order/src/main/java/com/barack/Main.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
