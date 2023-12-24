@@ -1,10 +1,10 @@
-package com.barack.orderservice;
+package com.barack.serviceorder;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class OrderServiceApplicationTests {
+class ServiceOrderApplicationTests {
 
 	@Test
 	void contextLoads() {
