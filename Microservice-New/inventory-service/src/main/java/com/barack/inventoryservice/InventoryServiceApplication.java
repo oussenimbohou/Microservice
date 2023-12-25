@@ -25,8 +25,18 @@ public class InventoryServiceApplication {
 					.skuCode("Tecno_Camon")
 					.quantity(3)
 					.build();
+			Inventory inventory3 = Inventory.builder()
+					.skuCode("Samsung_B")
+					.quantity(0)
+					.build();
+			Inventory inventory4 = Inventory.builder()
+					.skuCode("Pixel_7")
+					.quantity(1)
+					.build();
 			repository.save(inventory1);
 			repository.save(inventory2);
+			repository.save(inventory3);
+			repository.save(inventory4);
 		};
 	}
 }
