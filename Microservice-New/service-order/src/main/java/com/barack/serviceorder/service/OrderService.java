@@ -7,6 +7,7 @@ import com.barack.serviceorder.entity.Order;
 import com.barack.serviceorder.entity.OrderLineItems;
 import com.barack.serviceorder.repository.OrderRepository;
 import lombok.RequiredArgsConstructor;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.reactive.function.client.WebClient;
@@ -16,11 +17,12 @@ import java.util.List;
 import java.util.UUID;
 
 @Service
+@Slf4j
 @Transactional
 @RequiredArgsConstructor
 public class OrderService {
     private final OrderRepository repository;
-    private final WebClient webClient;
+    private final WebClient.Builder webClientBuilder;
     public String placeOrder(OrderRequest request){
         Order order = new Order();
         order.setOrderNumber(UUID.randomUUID().toString());
@@ -33,8 +35,15 @@ public class OrderService {
         List<String> skuCodes = order.getOrderLineItemsList().stream()
                 .map(OrderLineItems::getSkuCode)
                 .toList();
-        InventoryResponse[] inventoryResponsesArray = webClient.get()
-                .uri("http://localhost:9092/api/inventories",
+
+        InventoryResponse[] inventoryResponse = webClientBuilder.build().get()
+                .uri("http://inventory-service/api/inventories/all")
+                .retrieve()
+                .bodyToMono(InventoryResponse[].class)
+                .block();
+        log.info("All inventories infos: {}", inventoryResponse);
+        InventoryResponse[] inventoryResponsesArray = webClientBuilder.build().get()
+                .uri("http://inventory-service/api/inventories",
                         uriBuilder -> uriBuilder
                                 .queryParam("skuCodes", skuCodes).build())
                 .retrieve()
