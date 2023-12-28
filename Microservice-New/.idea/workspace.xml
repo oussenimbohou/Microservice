@@ -5,15 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bbea7ed9-3108-45d6-90c0-0f2c3d13fa40" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/api-gateway/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/java/com/barack/APIGatewayApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/java/com/barack/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/application.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-order/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/service-order/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/discovery-server/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/discovery-server/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/discovery-server/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/discovery-server/target/classes/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -164,8 +160,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.APIGatewayApplication" />
-        <item itemvalue="Application.ServiceOrderApplication" />
         <item itemvalue="Application.SpringbootMicroserviceApplication" />
+        <item itemvalue="Application.ServiceOrderApplication" />
         <item itemvalue="Application.InventoryServiceApplication" />
         <item itemvalue="Application.DiscoveryServerApplication" />
       </list>
@@ -197,7 +193,7 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Microservice_New$SpringbootMicroserviceApplication.ic" NAME="SpringbootMicroserviceApplication Coverage Results" MODIFIED="1703724303883" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/Microservice_New$SpringbootMicroserviceApplication.ic" NAME="SpringbootMicroserviceApplication Coverage Results" MODIFIED="1703747132810" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.barack.springbootmicroservice.*</FILTER>
     </SUITE>
   </component>
